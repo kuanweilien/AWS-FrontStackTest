@@ -4,16 +4,14 @@ frontend:
     # IMPORTANT - Please verify your build commands
     preBuild:
       commands:
-        - npm ci
-        - npm install        
         - cd amplifyapp
-        - mkdir build
+        - npm install
     build:
       commands:
         - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /build
+    baseDirectory: /amplifyapp/build
     files:
       - '**/*'
   cache:
