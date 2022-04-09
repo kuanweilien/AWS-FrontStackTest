@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyb4af1850ce8c4-staging-100137-authRole",
+      "UnauthRoleArn": "arn:aws:iam::867491772585:role/amplify-amplifyb4af1850ce8c4-staging-100137-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::867491772585:role/amplify-amplifyb4af1850ce8c4-staging-100137-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-amplifyb4af1850ce8c4-staging-100137-deployment",
+      "UnauthRoleName": "amplify-amplifyb4af1850ce8c4-staging-100137-unauthRole",
+      "StackName": "amplify-amplifyb4af1850ce8c4-staging-100137",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:867491772585:stack/amplify-amplifyb4af1850ce8c4-staging-100137/0bcad5d0-b7ec-11ec-a0ca-0a6521320bb7",
+      "AmplifyAppId": "dlzmlvobyie03"
+    }
+  },
+  "auth": {
+    "awsfrontstacktest7674cbcd": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyb4af1850ce8c4-staging-100137-deployment/amplify-cfn-templates/auth/awsfrontstacktest7674cbcd-cloudformation-template.json",
+        "logicalId": "authawsfrontstacktest7674cbcd"
+      },
+      "lastPushTimeStamp": "2022-04-09T13:01:09.826Z",
+      "output": {
+        "UserPoolId": "ap-northeast-1_0rWKO8QQD",
+        "AppClientIDWeb": "539pmv2q02l59lv5udmobnbq4g",
+        "AppClientID": "7n621putb4eumu08pulju2rl07",
+        "IdentityPoolId": "ap-northeast-1:5ac345bf-9e7f-4987-82c2-5f8bf2b4ab88",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-northeast-1:867491772585:userpool/ap-northeast-1_0rWKO8QQD",
+        "IdentityPoolName": "awsfrontstacktest7674cbcd_identitypool_7674cbcd__staging",
+        "UserPoolName": "awsfrontstacktest7674cbcd_userpool_7674cbcd"
+      },
+      "lastPushDirHash": "aVNz10ln+farMQn12pWAJ9gn3R4="
+    }
+  }
+}
